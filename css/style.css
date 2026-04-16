@@ -735,6 +735,7 @@ button {
    FLOATING CHAT BUTTON (FAB)
    ============================================ */
 .chat-fab {
+  display: none; /* Escondido — Tawk.to tem seu próprio botão */
   position: fixed;
   bottom: 24px;
   right: 24px;
