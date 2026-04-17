@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "landing-page",
+      "runtimeExecutable": "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/python.exe",
+      "runtimeArgs": ["-m", "http.server"],
+      "port": 8000,
+      "autoPort": true
+    }
+  ]
+}
