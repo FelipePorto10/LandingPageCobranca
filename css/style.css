@@ -2,21 +2,21 @@
    VARIÁVEIS CSS — Altere aqui para customizar
    ============================================ */
 :root {
-  --color-primary: #1a365d;
-  --color-primary-light: #2a4a7f;
-  --color-primary-dark: #0f2440;
-  --color-cta: #f56500;
-  --color-cta-hover: #e05a00;
-  --color-cta-light: rgba(245, 101, 0, 0.12);
+  --color-primary: #0a0a0a;
+  --color-primary-light: #1f1f1f;
+  --color-primary-dark: #000000;
+  --color-cta: #D4A436;
+  --color-cta-hover: #B88C28;
+  --color-cta-light: rgba(212, 164, 54, 0.15);
   --color-success: #38a169;
   --color-success-light: rgba(56, 161, 105, 0.12);
-  --color-text: #1a202c;
-  --color-text-light: #4a5568;
-  --color-text-muted: #718096;
+  --color-text: #1a1a1a;
+  --color-text-light: #4a4a4a;
+  --color-text-muted: #737373;
   --color-bg: #ffffff;
-  --color-bg-alt: #f7fafc;
-  --color-bg-dark: #0f172a;
-  --color-border: #e2e8f0;
+  --color-bg-alt: #f5f5f5;
+  --color-bg-dark: #000000;
+  --color-border: #e5e5e5;
   --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -150,12 +150,12 @@ button {
 .btn--cta {
   background: var(--color-cta);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(245, 101, 0, 0.35);
+  box-shadow: 0 4px 14px rgba(212, 164, 54, 0.35);
 }
 
 .btn--cta:hover {
   background: var(--color-cta-hover);
-  box-shadow: 0 6px 20px rgba(245, 101, 0, 0.45);
+  box-shadow: 0 6px 20px rgba(212, 164, 54, 0.45);
   transform: translateY(-1px);
 }
 
@@ -168,9 +168,9 @@ button {
 }
 
 @keyframes pulse-btn {
-  0% { box-shadow: 0 4px 14px rgba(245, 101, 0, 0.35), 0 0 0 0 rgba(245, 101, 0, 0.5); }
-  70% { box-shadow: 0 4px 14px rgba(245, 101, 0, 0.35), 0 0 0 14px rgba(245, 101, 0, 0); }
-  100% { box-shadow: 0 4px 14px rgba(245, 101, 0, 0.35), 0 0 0 0 rgba(245, 101, 0, 0); }
+  0% { box-shadow: 0 4px 14px rgba(212, 164, 54, 0.35), 0 0 0 0 rgba(212, 164, 54, 0.5); }
+  70% { box-shadow: 0 4px 14px rgba(212, 164, 54, 0.35), 0 0 0 14px rgba(212, 164, 54, 0); }
+  100% { box-shadow: 0 4px 14px rgba(212, 164, 54, 0.35), 0 0 0 0 rgba(212, 164, 54, 0); }
 }
 
 /* ============================================
@@ -447,7 +447,7 @@ button {
 }
 
 .benefit-card__icon--car {
-  background: rgba(26, 54, 93, 0.1);
+  background: rgba(10, 10, 10, 0.08);
   color: var(--color-primary);
 }
 
@@ -826,7 +826,7 @@ button {
   border-radius: var(--radius-full);
   font-weight: 700;
   font-size: 0.85rem;
-  box-shadow: 0 4px 20px rgba(245, 101, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(212, 164, 54, 0.4);
   animation: pulse-fab 2s infinite;
   transition: transform var(--transition), background var(--transition);
   min-height: 56px;
@@ -842,9 +842,9 @@ button {
 }
 
 @keyframes pulse-fab {
-  0% { box-shadow: 0 4px 20px rgba(245, 101, 0, 0.4), 0 0 0 0 rgba(245, 101, 0, 0.5); }
-  70% { box-shadow: 0 4px 20px rgba(245, 101, 0, 0.4), 0 0 0 18px rgba(245, 101, 0, 0); }
-  100% { box-shadow: 0 4px 20px rgba(245, 101, 0, 0.4), 0 0 0 0 rgba(245, 101, 0, 0); }
+  0% { box-shadow: 0 4px 20px rgba(212, 164, 54, 0.4), 0 0 0 0 rgba(212, 164, 54, 0.5); }
+  70% { box-shadow: 0 4px 20px rgba(212, 164, 54, 0.4), 0 0 0 18px rgba(212, 164, 54, 0); }
+  100% { box-shadow: 0 4px 20px rgba(212, 164, 54, 0.4), 0 0 0 0 rgba(212, 164, 54, 0); }
 }
 
 .chat-fab__badge {
