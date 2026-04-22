@@ -312,12 +312,89 @@ button {
 
 .hero__illustration {
   width: 100%;
-  max-width: 320px;
+  max-width: 380px;
 }
 
 .hero__svg {
   width: 100%;
   height: auto;
+}
+
+/* Grade de apps no hero */
+.hero__apps-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 8px;
+}
+
+.hero-app {
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+.hero-app:hover {
+  transform: translateY(-3px) rotate(-1deg);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+}
+
+.hero-app:nth-child(even):hover {
+  transform: translateY(-3px) rotate(1deg);
+}
+
+/* Cores de cada app (estilizadas — não usamos logos oficiais) */
+.hero-app--uber {
+  background: #000000;
+  color: #ffffff;
+}
+
+.hero-app--99 {
+  background: #FFD400;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.hero-app--indriver {
+  background: #C1D82F;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.hero-app--ifood {
+  background: #EA1D2C;
+  color: #ffffff;
+}
+
+.hero-app--rappi {
+  background: #FF441F;
+  color: #ffffff;
+}
+
+.hero-app--lalamove {
+  background: #F16622;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.hero-app--loggi {
+  background: #00C8B2;
+  color: #ffffff;
+  font-size: 1.05rem;
+}
+
+.hero-app--more {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  color: #ffffff;
+  font-size: 0.95rem;
 }
 
 /* ============================================
